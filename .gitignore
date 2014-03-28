@@ -1,1 +1,4 @@
 target/
+musicinfo.sql
+*.iml
+.idea/
