@@ -3,4 +3,8 @@ musicinfo
 
 Music-Info
 
-1) Create empty database : 'musicinfo' and 'musicinfo_test'.
+1) Execute sql file musicinfo_sql/musicinfo_create_data.sql
+mysql -u root -p < musicinfo_create_data.sql
+
+2) Create musicinfo_test database for JUNIT testing
+
