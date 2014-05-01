@@ -42,7 +42,7 @@ public class GenreDaoMysql extends CreateConnection implements GenreDAO {
                 prepSt.setString(1, name.toLowerCase());
                 isCreated = prepSt.executeUpdate() > 0;
                 if (isCreated) {
-                    logger.debug("Author was created");
+                    logger.debug("genre: " + name + " was created");
                     conn.commit();
                 } else {
                     conn.rollback();
@@ -83,6 +83,7 @@ public class GenreDaoMysql extends CreateConnection implements GenreDAO {
                 musicInfo.setId(rs.getLong("MINFO_ID"));
                 musicInfo.setAuthor_id(rs.getLong("MINFO_AUTHOR_ID"));
                 musicInfo.setText(rs.getString("MINFO_TEXT"));
+                musicInfo.setUrl_address(rs.getString("MINFO_URL"));
                 musicInfoList.add(musicInfo);
             }
         } catch (SQLException ex) {
@@ -97,7 +98,7 @@ public class GenreDaoMysql extends CreateConnection implements GenreDAO {
         Genre genre = null;
         try {
             prepSt = prepStatements[GET];
-            prepSt.setString(1,name.toLowerCase());
+            prepSt.setString(1, name.toLowerCase());
             ResultSet rs = prepSt.executeQuery();
             if (rs.next()) {
                 genre = new Genre(rs.getString("GENRE_NAME"));

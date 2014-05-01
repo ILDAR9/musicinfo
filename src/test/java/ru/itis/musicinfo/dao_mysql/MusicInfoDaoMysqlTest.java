@@ -10,6 +10,7 @@ import ru.itis.musicinfo.dao.GenreDAO;
 import ru.itis.musicinfo.dao.MusicInfoDAO;
 import ru.itis.musicinfo.model.Author;
 import ru.itis.musicinfo.model.MusicInfo;
+import ru.itis.musicinfo.utils.TruncateTables;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -17,14 +18,12 @@ import static org.junit.Assert.assertTrue;
 
 public class MusicInfoDaoMysqlTest {
 
-    public static AuthorDAO authorDAO;
     public static TruncateTables truncater;
 
 
     @BeforeClass
     public static void setUp() throws Exception {
         try {
-            authorDAO = new AuthorDaoMysql();
             truncater = new TruncateTables();
             truncater.truncateTables();
         } catch (Exception e) {
@@ -38,12 +37,15 @@ public class MusicInfoDaoMysqlTest {
     }
 
     @Test
-    public void createTest() {
+    public void createTest() throws Exception {
         String name = "Ramstein";
-        long idAuthor = authorDAO.create(name);
-        assertTrue("Author was not created", idAuthor >= 0L);
-        Author author = authorDAO.get(name);
-        assertNotNull("Created author was not found", author);
+        try (AuthorDAO authorDAO = new AuthorDaoMysql()) {
+            long idAuthor = authorDAO.create(name);
+            assertTrue("Author was not created", idAuthor >= 0L);
+            Author author = authorDAO.get(name);
+            assertNotNull("Created author was not found", author);
+        }
+
     }
 
     @Test
@@ -65,6 +67,7 @@ public class MusicInfoDaoMysqlTest {
                 MusicInfo musicInfo = new MusicInfo(name, genreId);
                 musicInfo.setAuthor_id(authorId);
                 musicInfo.setText(text);
+                musicInfo.setUrl_address(name);
                 musicInfoDAO.create(musicInfo);
             }
         }
@@ -76,9 +79,6 @@ public class MusicInfoDaoMysqlTest {
 
     @AfterClass
     public static void tearDown() throws Exception {
-        if (authorDAO != null) {
-            authorDAO.close();
-        }
     }
 
 }

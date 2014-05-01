@@ -18,7 +18,7 @@ import java.util.List;
  * Implemented by Mysql
  */
 public class AuthorDaoMysql extends CreateConnection implements AuthorDAO {
-    private  static final Logger logger = LoggerFactory.getLogger(AuthorDaoMysql.class);
+    private static final Logger logger = LoggerFactory.getLogger(AuthorDaoMysql.class);
     private static final String sqlEmplPropertiesFileName = "/mysql_author.properties";
 
     private static final int CREATE_AUTHOR = 0,
@@ -42,7 +42,7 @@ public class AuthorDaoMysql extends CreateConnection implements AuthorDAO {
                 prepSt.setString(1, name.toLowerCase());
                 isCreated = prepSt.executeUpdate() > 0;
                 if (isCreated) {
-                    logger.debug("Author was created");
+                    logger.debug("author: " + name + " was created");
                     conn.commit();
                 } else {
                     conn.rollback();
@@ -50,7 +50,7 @@ public class AuthorDaoMysql extends CreateConnection implements AuthorDAO {
             } catch (SQLException ex) {
                 logger.error("while trying to create new Author", ex);
             }
-        if (isCreated){
+        if (isCreated) {
             author_id = get(name).getId();
         }
         return author_id;
@@ -60,6 +60,7 @@ public class AuthorDaoMysql extends CreateConnection implements AuthorDAO {
         Author author = null;
         try {
             prepSt = prepStatements[GET_AUTHOR];
+            prepSt.clearParameters();
             prepSt.setString(1, name.toLowerCase());
             try (ResultSet rs = prepSt.executeQuery()) {
                 if (rs.next()) {
@@ -92,13 +93,14 @@ public class AuthorDaoMysql extends CreateConnection implements AuthorDAO {
         List<MusicInfo> musicInfoList = new ArrayList<>();
         try {
             prepSt = prepStatements[GET_MUSIC_INFO_LIST_OF_AUTHOR];
-            prepSt.setLong(1,author.getId());
+            prepSt.setLong(1, author.getId());
             ResultSet rs = prepSt.executeQuery();
             while (rs.next()) {
                 MusicInfo musicInfo = new MusicInfo(rs.getString("MINFO_NAME"), rs.getLong("MINFO_GENRE_ID"));
                 musicInfo.setId(rs.getLong("MINFO_ID"));
                 musicInfo.setAuthor_id(rs.getLong("MINFO_AUTHOR_ID"));
                 musicInfo.setText(rs.getString("MINFO_TEXT"));
+                musicInfo.setUrl_address(rs.getString("MINFO_URL"));
                 musicInfoList.add(musicInfo);
             }
 

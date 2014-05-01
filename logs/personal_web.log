@@ -1,0 +1,604 @@
+20:32:595  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:32:795 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:32:797 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:32:797 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:32:798 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:32:809 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:32:811 DEBUG main GenreDaoMysql:create:45 - genre: shanson was created
+20:32:822 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:32:294 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:32:295 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:32:319 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:32:320 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:32:413 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Звезды в лужах was created
+20:32:534 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Когда я увижу море was created
+20:32:650 DEBUG main AuthorDaoMysql:create:45 - author: Adriano Celentano was created
+20:32:659 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Amore No was created
+20:32:773 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Azzurro was created
+20:32:888 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Confessa was created
+20:32:03 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Il Mondo Gira was created
+20:32:121 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Il Tempo Se Ne Va was created
+20:32:232 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Pay, Pay, Pay was created
+20:32:347 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Soli was created
+20:32:480 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Susanna was created
+20:32:618 DEBUG main AuthorDaoMysql:create:45 - author: Edith Piaf was created
+20:32:634 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: La Vie En Rose was created
+20:32:741 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Non, je ne regrette rien was created
+20:32:843 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Padam... Padam... was created
+20:32:947 DEBUG main AuthorDaoMysql:create:45 - author: ZAZ was created
+20:32:955 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Eblouie Par La Nuit was created
+20:32:60 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Je Veux was created
+20:32:169 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: J'aime à Nouveau was created
+20:32:293 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: La Fée was created
+20:32:399 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: La Pluie was created
+20:32:503 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Mi Va was created
+20:32:607 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ni Oui Ni Non was created
+20:32:712 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Prends Garde a Ta Langue was created
+20:32:813 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Орел was created
+20:32:917 DEBUG main AuthorDaoMysql:create:45 - author: Алексей Понамарев was created
+20:32:924 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А мы не ангелы was created
+20:32:31 DEBUG main AuthorDaoMysql:create:45 - author: Булат Окуджава was created
+20:32:38 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы за ценой не постоим was created
+20:32:136 DEBUG main AuthorDaoMysql:create:45 - author: Владимир Высоцкий was created
+20:32:144 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Баллада о любви was created
+20:32:251 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Банька по-белому was created
+20:32:354 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой Каретный was created
+20:32:455 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Братские могилы was created
+20:32:552 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Городской романс was created
+20:32:655 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Диалог у телевизора was created
+20:32:756 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Дом хрустальный was created
+20:32:863 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Дорожная история was created
+20:32:05 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Зa меня невеста отрыдает честно... was created
+20:32:106 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Здесь вам не равнина was created
+20:32:211 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Здесь лапы у елей дрожат на весу was created
+20:32:315 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Кони привередливые was created
+20:32:417 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Купола was created
+20:32:520 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Лукоморья больше нет was created
+20:32:626 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Милицейский протокол was created
+20:32:721 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Москва-Одесса was created
+20:32:871 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:32:873 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:32:891 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:32:893 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:32:973 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Он не вернулся из боя was created
+20:32:79 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Она была в Париже was created
+20:32:232 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Охота на волков was created
+20:33:339 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Парус was created
+20:33:455 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня о друге was created
+20:33:558 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня о звездах was created
+20:33:651 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Прощание с горами was created
+20:33:754 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Скалолазка was created
+20:33:855 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Спасите наши души was created
+20:33:951 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сыновья уходят в бой was created
+20:33:48 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Татуировка was created
+20:33:154 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Тот, кто раньше с нею был was created
+20:33:258 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Утренняя гимнастика was created
+20:33:350 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Формулировка was created
+20:33:447 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Чужая колея was created
+20:33:550 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я не люблю was created
+20:33:644 DEBUG main AuthorDaoMysql:create:45 - author: Георгий Виноградов was created
+20:33:658 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Катюша was created
+20:33:748 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Водопадом was created
+20:33:847 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Рюмка водки на столе was created
+20:33:950 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Вечная любовь was created
+20:33:51 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Где была was created
+20:33:155 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Желаю was created
+20:33:255 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Курю was created
+20:33:358 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Не любил was created
+20:33:450 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Шопен was created
+20:33:549 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я тебя поцеловала was created
+20:33:643 DEBUG main AuthorDaoMysql:create:45 - author: Иосиф Кобзон was created
+20:33:651 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Погоня was created
+20:33:746 DEBUG main AuthorDaoMysql:create:45 - author: Каскад was created
+20:33:760 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Кукушка was created
+20:33:861 DEBUG main AuthorDaoMysql:create:45 - author: Лев Лещенко was created
+20:33:869 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: День Победы was created
+20:33:966 DEBUG main AuthorDaoMysql:create:45 - author: Марк Бернес was created
+20:33:974 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Журавли was created
+20:33:283 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С чего начинается Родина was created
+20:33:667 DEBUG main AuthorDaoMysql:create:45 - author: Марк Винокуров was created
+20:33:674 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Одной тобою was created
+20:33:882 DEBUG main AuthorDaoMysql:create:45 - author: Михаил Круг was created
+20:33:890 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Тебе, моя последняя любовь was created
+20:33:16 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Зажгите свечи was created
+20:33:167 DEBUG main AuthorDaoMysql:create:45 - author: Олег Митяев was created
+20:33:177 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Как здорово (Изгиб гитары желтой) was created
+20:33:806 DEBUG main AuthorDaoMysql:create:45 - author: Семен Слепаков was created
+20:33:814 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: 8 марта was created
+20:33:934 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Бабушка-трансформер was created
+20:33:87 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В моей стране все есть was created
+20:33:213 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В Одноклассниках was created
+20:33:312 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Вот поэтому мы в Москве такие злые was created
+20:33:470 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:33:471 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:33:493 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:33:494 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:33:591 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Встала баба на весы was created
+20:33:689 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Где бы взять мне бабу was created
+20:33:794 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Гимн офисного работника was created
+20:33:903 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: День Победы was created
+20:33:01 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: До свадьбы нельзя was created
+20:33:104 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Жопа растет was created
+20:33:250 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Залепи свое дуло was created
+20:33:360 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Круглосуточно красивая женщина was created
+20:33:458 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Купи говно was created
+20:33:562 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Люба-звезда Ютьюба was created
+20:33:664 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Море работы was created
+20:33:770 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Обращение к акционерам Газпрома was created
+20:33:873 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про начальника was created
+20:33:976 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про трусы was created
+20:33:78 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня российского чиновника was created
+20:33:149 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Печень was created
+20:34:287 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Разговор мужа с женой was created
+20:34:391 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Рэд Хот Чили Пепперс was created
+20:34:490 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым Годом, президент России was created
+20:34:587 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сама козел was created
+20:34:687 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Стану геем was created
+20:34:794 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сука-сосед was created
+20:34:892 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Хочу хача (Московская девичья) was created
+20:34:988 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Экстрасенс was created
+20:34:85 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я затрахался трахаться was created
+20:34:185 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я сегодня хочу обратиться к врачу was created
+20:34:282 DEBUG main AuthorDaoMysql:create:45 - author: Старый примус was created
+20:34:289 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя сказка was created
+20:34:384 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Без тебя was created
+20:34:483 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Веди меня, Бог мой was created
+20:34:582 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Вертолет was created
+20:34:684 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Верую was created
+20:34:780 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ветер бродяга was created
+20:34:878 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Все для тебя was created
+20:34:983 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Все успеть сказать was created
+20:34:88 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Довольно was created
+20:34:230 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Если бы не ты was created
+20:34:434 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Жене was created
+20:34:528 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Женщина-вамп was created
+20:34:637 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Жизнь-обман was created
+20:34:742 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: За женщин всех was created
+20:34:856 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:34:857 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:34:873 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:34:875 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:34:936 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Забудь was created
+20:34:31 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Засыпает лес was created
+20:34:131 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: К тебе иду was created
+20:34:230 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Кате was created
+20:34:327 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мираж was created
+20:34:428 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мне б успеть взлететь was created
+20:34:529 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мой друг was created
+20:34:626 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы разные was created
+20:34:724 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы теперь уходим понемногу was created
+20:34:828 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: На волю was created
+20:34:930 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: На распутье was created
+20:34:31 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Не держи меня was created
+20:34:137 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Непрощенный was created
+20:34:239 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Опять один was created
+20:34:333 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Осеннее расставание was created
+20:34:428 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Позывные на любовь was created
+20:34:528 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Покраснела рябина was created
+20:34:625 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Почти устал was created
+20:34:720 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Приди ко мне was created
+20:34:811 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Просто любить was created
+20:34:904 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Разлука was created
+20:34:15 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Россия was created
+20:34:112 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Свеча was created
+20:34:209 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Серый дождь was created
+20:34:305 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сказочный мир was created
+20:34:404 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Тебя оставлю я was created
+20:34:501 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Темные глаза was created
+20:34:605 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Только ты was created
+20:34:705 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Трамвай was created
+20:34:808 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ты меня не отпускай was created
+20:34:906 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я ждал was created
+20:35:00 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я к вечности шагаю день за днем was created
+20:35:97 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я скажу с небес was created
+20:35:192 DEBUG main AuthorDaoMysql:create:45 - author: Юрий Волгин was created
+20:35:205 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы вернулись с войны was created
+20:44:375  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:44:572 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:44:573 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:44:574 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:44:574 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:44:585 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:44:587 DEBUG main GenreDaoMysql:create:45 - genre: kinosong was created
+20:44:601 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:44:28 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:44:30 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:44:51 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:44:53 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:44:201 DEBUG main AuthorDaoMysql:create:45 - author: Белорусский вокзал was created
+20:44:208 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы за ценой не постоим was created
+20:44:324 DEBUG main AuthorDaoMysql:create:45 - author: Бобик в гостях у Барбоса was created
+20:44:341 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Человек собаке друг was created
+20:44:466 DEBUG main AuthorDaoMysql:create:45 - author: Бой с тенью was created
+20:44:473 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: King Ring was created
+20:44:616 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Буду с тобой was created
+20:44:819 DEBUG main AuthorDaoMysql:create:45 - author: Большой секрет для маленькой компании was created
+20:44:826 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой лошадиный секрет was created
+20:44:973 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой секрет для маленькой компании was created
+20:44:674 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой собачий секрет was created
+20:44:824 DEBUG main AuthorDaoMysql:create:45 - author: Вам и не снилось was created
+20:44:838 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Последняя поэма was created
+20:44:953 DEBUG main AuthorDaoMysql:create:45 - author: Волк и семеро козлят на новый лад was created
+20:44:961 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Диалог волка и козлят was created
+20:44:150 DEBUG main AuthorDaoMysql:create:45 - author: Вышибала was created
+20:44:159 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ты чемпион was created
+20:44:585 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Странник was created
+20:44:705 DEBUG main AuthorDaoMysql:create:45 - author: Дневники Доктора Зайцевой was created
+20:44:715 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Это любовь was created
+20:44:840 DEBUG main AuthorDaoMysql:create:45 - author: Доброе утро was created
+20:44:849 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Candy Shop was created
+20:44:960 DEBUG main AuthorDaoMysql:create:45 - author: Золушка was created
+20:44:969 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Чего не могут люди was created
+20:45:77 DEBUG main AuthorDaoMysql:create:45 - author: Иван Васильевич меняет профессию was created
+20:45:86 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Разговор со счастьем was created
+20:45:279 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С любовью встретиться was created
+20:45:656 DEBUG main AuthorDaoMysql:create:45 - author: Ирония судьбы was created
+20:45:662 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Опять метель was created
+20:45:773 DEBUG main AuthorDaoMysql:create:45 - author: Кадетство was created
+20:45:782 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мальчишки-кадеты was created
+20:45:890 DEBUG main AuthorDaoMysql:create:45 - author: Карнавальная ночь was created
+20:45:904 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Пять минут was created
+20:45:07 DEBUG main AuthorDaoMysql:create:45 - author: Катерок was created
+20:45:20 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Синяя вода was created
+20:45:122 DEBUG main AuthorDaoMysql:create:45 - author: Летучий корабль was created
+20:45:131 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мечта was created
+20:45:237 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Вани-печнка was created
+20:45:350 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня царевны Забавы was created
+20:45:456 DEBUG main AuthorDaoMysql:create:45 - author: Мерседес уходит от погони was created
+20:45:464 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Он не вернулся из боя was created
+20:45:572 DEBUG main AuthorDaoMysql:create:45 - author: Монтекристо was created
+20:45:580 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ты и я was created
+20:45:685 DEBUG main AuthorDaoMysql:create:45 - author: Неуловимые мстители was created
+20:45:691 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Погоня was created
+20:45:792 DEBUG main AuthorDaoMysql:create:45 - author: Новогодние приключения Маши и Вити was created
+20:45:801 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Бабы Яги was created
+20:45:906 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Лешего was created
+20:45:12 DEBUG main AuthorDaoMysql:create:45 - author: Обыкновенное чудо was created
+20:45:20 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Давайте негромко was created
+20:45:128 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя was created
+20:45:242 DEBUG main AuthorDaoMysql:create:45 - author: Очкарито was created
+20:45:248 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Очкарито was created
+20:45:351 DEBUG main AuthorDaoMysql:create:45 - author: Пес в сапогах was created
+20:45:360 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Дуэт Пса и Болонки was created
+20:45:465 DEBUG main AuthorDaoMysql:create:45 - author: Песенка мышонка was created
+20:45:473 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Какой чудесный день was created
+20:45:577 DEBUG main AuthorDaoMysql:create:45 - author: Приключения Незнайки и его друзей was created
+20:45:585 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В траве сидел кузнечик was created
+20:45:692 DEBUG main AuthorDaoMysql:create:45 - author: Приключения Электроника was created
+20:45:707 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Заводные игрушки was created
+20:45:810 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Колокола was created
+20:45:913 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Крылатые качели was created
+20:45:16 DEBUG main AuthorDaoMysql:create:45 - author: Реальные пацаны was created
+20:45:32 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Зацени was created
+20:45:135 DEBUG main AuthorDaoMysql:create:45 - author: Русалочка was created
+20:45:141 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Русалочки was created
+20:45:241 DEBUG main AuthorDaoMysql:create:45 - author: Сваты was created
+20:45:249 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Десантник was created
+20:45:368 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:45:370 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:45:387 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:45:389 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:45:457 DEBUG main AuthorDaoMysql:create:45 - author: Спокойной ночи малыши was created
+20:45:465 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Спят усталые игрушки was created
+20:45:593 DEBUG main AuthorDaoMysql:create:45 - author: Стиляги was created
+20:45:599 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Американская жена was created
+20:45:706 DEBUG main AuthorDaoMysql:create:45 - author: Сумерки was created
+20:45:719 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Leave Out All the Rest was created
+20:45:818 DEBUG main AuthorDaoMysql:create:45 - author: Убойная сила was created
+20:45:830 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Прорвемся was created
+20:45:926 DEBUG main AuthorDaoMysql:create:45 - author: Щит и меч was created
+20:45:932 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С чего начинается Родина was created
+20:49:210  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:49:442 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:49:443 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:49:444 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:49:444 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:49:455 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:49:458 DEBUG main GenreDaoMysql:create:45 - genre: kidsong was created
+20:49:468 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:49:887 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:49:888 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:49:905 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:49:906 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:49:996 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А пушистые шмели was created
+20:49:117 DEBUG main AuthorDaoMysql:create:45 - author: Даша Баранова was created
+20:49:142 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А ты меня любишь? was created
+20:49:267 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А может быть ворона was created
+20:49:377 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Антошка was created
+20:49:492 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ах, если бы сбылась моя мечта was created
+20:49:606 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Бармалей was created
+20:49:720 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Белые кораблики was created
+20:49:835 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой лошадиный секрет was created
+20:49:953 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой секрет для маленькой компании was created
+20:49:67 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Большой собачий секрет was created
+20:49:177 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Буратино was created
+20:49:289 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В лесу родилась елочка was created
+20:49:401 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В траве сидел кузнечик was created
+20:49:518 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Волшебный клей was created
+20:49:633 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Где водятся Волшебники? was created
+20:49:749 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Диалог волка и козлят was created
+20:49:852 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Дуэт Пса и Болонки was created
+20:49:968 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Заводные игрушки was created
+20:50:74 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Зима в избушке was created
+20:50:177 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Какой чудесный день was created
+20:50:281 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Колокола was created
+20:50:385 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Крошка Вилли-Винки was created
+20:50:500 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Крылатые качели was created
+20:50:604 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Музыка и дети was created
+20:50:707 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Настоящий друг was created
+20:50:810 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Небылицы was created
+20:50:914 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя сказка was created
+20:50:20 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Бельчонка was created
+20:50:143 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Буратино (Это очень хорошо...) was created
+20:50:261 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка крокодила Гены was created
+20:50:367 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка о двух портфелях was created
+20:50:471 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Очкарито was created
+20:50:574 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Тутты Карлсон was created
+20:50:677 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Умки was created
+20:50:783 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка Чебурашки was created
+20:50:885 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Бабы Яги was created
+20:50:986 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Вани-печнка was created
+20:50:201 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Лешего was created
+20:50:415 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня о мечте (Ах, если бы сбылась моя мечта) was created
+20:50:519 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня Русалочки was created
+20:50:652 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:50:654 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:50:668 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:50:670 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:50:741 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня царевны Забавы was created
+20:50:871 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Почему медведь зимой спит was created
+20:50:969 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С понедельника возьмусь was created
+20:50:65 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Синяя вода was created
+20:50:166 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Снеженика was created
+20:50:261 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Человек собаке друг was created
+20:50:355 DEBUG main AuthorDaoMysql:create:45 - author: Детские песни was created
+20:50:364 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Чему учат в школе was created
+20:50:458 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Юла was created
+20:50:560 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Спят усталые игрушки was created
+20:50:812  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:50:09 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:50:10 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:50:12 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:50:14 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:50:30 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:50:32 DEBUG main GenreDaoMysql:create:45 - genre: warsong was created
+20:50:49 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:50:414 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:50:415 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:50:432 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:50:434 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:50:530 DEBUG main AuthorDaoMysql:create:45 - author: Motor-Roller was created
+20:50:540 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня о войне was created
+20:50:660 DEBUG main AuthorDaoMysql:create:45 - author: Алла Иошпе was created
+20:50:669 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Алеша was created
+20:50:792 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы за ценой не постоим was created
+20:50:910 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Он не вернулся из боя was created
+20:50:20 DEBUG main AuthorDaoMysql:create:45 - author: Военные песни was created
+20:50:29 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В землянке was created
+20:50:143 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Прощание Славянки was created
+20:50:266 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Священная война was created
+20:50:370 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Синий платочек was created
+20:50:498 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Смуглянка was created
+20:50:612 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Темная ночь was created
+20:50:735 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Катюша was created
+20:50:834 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Старый полковник was created
+20:50:935 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Погоня was created
+20:50:37 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ты же выжил, солдат was created
+20:50:143 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Кукушка was created
+20:50:245 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Журавли was created
+20:50:347 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С чего начинается Родина was created
+20:50:451 DEBUG main AuthorDaoMysql:create:45 - author: Николова и Кордов was created
+20:50:459 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Алеша was created
+20:51:557 DEBUG main AuthorDaoMysql:create:45 - author: Сергей КОТ Lightbeat was created
+20:51:565 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В базу идем was created
+20:51:671 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Война was created
+20:51:776 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы вернулись с войны was created
+20:51:646  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:51:846 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:51:847 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:51:849 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:51:849 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:51:863 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:51:865 DEBUG main GenreDaoMysql:create:45 - genre: 9maya was created
+20:51:884 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:51:251 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:51:252 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:51:272 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:51:274 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:51:369 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Алеша was created
+20:51:496 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Мы за ценой не постоим was created
+20:51:619 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: День Победы was created
+20:51:734 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: День Победы was created
+20:51:849 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Журавли was created
+20:51:963 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Алеша was created
+20:51:80 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: День Победы was created
+20:51:196 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Победная was created
+20:51:571  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:51:770 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:51:771 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:51:772 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:51:773 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:51:788 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:51:790 DEBUG main GenreDaoMysql:create:45 - genre: newyear was created
+20:51:806 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:51:235 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:51:236 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:51:250 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:51:251 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:51:402 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+20:51:538 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Happy New Year was created
+20:51:658 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя 2014 was created
+20:51:771 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый Год was created
+20:51:884 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым Годом was created
+20:51:01 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Елка 2012 was created
+20:51:124 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодний гопачек was created
+20:51:240 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя 2010 was created
+20:51:359 DEBUG main AuthorDaoMysql:create:45 - author: George Michael was created
+20:51:368 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: December Song (I Dreamed Of Christmas) was created
+20:51:482 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В новогоднюю ночь я хочу быть с тобой was created
+20:51:599 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя was created
+20:51:703 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Обыкновенное чудо was created
+20:51:808 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Белый Снег (Новогодняя) was created
+20:51:919 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В Новый Год was created
+20:51:28 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым Годом was created
+20:51:130 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+20:51:234 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Этот Новый Год! was created
+20:51:341 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя was created
+20:51:443 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Старый год was created
+20:51:546 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя was created
+20:51:660 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Многоточие was created
+20:51:758 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым Годом! was created
+20:51:866 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Снег идет was created
+20:51:965 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В лесу родилась елочка was created
+20:51:76 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя was created
+20:51:178 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Нежно was created
+20:51:290 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым годом was created
+20:52:410 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Снежинки was created
+20:52:513 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Пять минут was created
+20:52:616 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Coca-Cola 2012 (Праздник к нам приходит) was created
+20:52:726 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Пять минут was created
+20:52:838 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя was created
+20:52:944 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С первого по тринадцатое was created
+20:52:49 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя пьяная was created
+20:52:151 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В лесу родилась елочка was created
+20:52:254 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Волшебный клей was created
+20:52:357 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Откуда приходит Новый Год was created
+20:52:468 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Снеженика was created
+20:52:578 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым Годом was created
+20:52:683 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый Год 2012 was created
+20:52:829 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:52:830 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:52:843 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:52:845 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:52:910 DEBUG main AuthorDaoMysql:create:45 - author: Оскар Кучера was created
+20:52:917 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+20:52:19 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый Год was created
+20:52:120 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Бенгальские Огни 2012 was created
+20:52:219 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+20:52:318 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Ничего не помню (Новогодняя) was created
+20:52:416 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодняя сказка was created
+20:52:556 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Не обижай любовь was created
+20:52:750 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сто свечей was created
+20:52:857 DEBUG main AuthorDaoMysql:create:45 - author: Уральские Пельмени was created
+20:52:870 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+20:52:973 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Снегом белым was created
+20:52:78 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новогодний поцелуй was created
+20:52:179 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сдвину мир was created
+20:52:286 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+20:53:910  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:54:108 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:54:109 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:54:110 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:54:110 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:54:121 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:54:123 DEBUG main GenreDaoMysql:create:45 - genre: svadba was created
+20:54:142 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:54:524 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:54:526 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:54:542 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:54:544 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:54:637 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Свадьба was created
+20:54:754 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Свадьба was created
+20:54:875 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Белое платье was created
+20:59:255  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+20:59:451 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+20:59:453 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+20:59:454 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+20:59:454 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:59:465 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+20:59:468 DEBUG main GenreDaoMysql:create:45 - genre: jokes was created
+20:59:479 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+20:59:914 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:59:915 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+20:59:932 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+20:59:933 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+20:59:90 DEBUG main AuthorDaoMysql:create:45 - author: Eric Cartman was created
+20:59:100 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Poker Face was created
+20:59:221 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А пушистые шмели was created
+20:59:346 DEBUG main AuthorDaoMysql:create:45 - author: БАК-Соучастники was created
+20:59:356 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня на жалость was created
+20:59:462 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про малыша was created
+20:59:574 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про НЛО was created
+20:59:688 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Пародия на Дениса Майданова was created
+20:59:826 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Актуальная was created
+20:59:934 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Да пошла ты нахуй was created
+20:59:48 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А моя не такая was created
+20:59:166 DEBUG main AuthorDaoMysql:create:45 - author: Простименямама was created
+20:59:174 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Алена даст was created
+20:59:284 DEBUG main AuthorDaoMysql:create:45 - author: РУДН was created
+20:59:294 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Саундтрек к мультфильму Винни-Пух was created
+20:59:393 DEBUG main AuthorDaoMysql:create:45 - author: Сборная Днепропетровска was created
+20:59:408 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка про школу was created
+20:59:518 DEBUG main AuthorDaoMysql:create:45 - author: Светлана Капустина was created
+20:59:525 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Кисонька и компания (Ослик, суслик, паукан) was created
+20:59:624 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: 8 марта was created
+20:59:727 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Бабушка-трансформер was created
+20:59:840 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В моей стране все есть was created
+20:59:947 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: В Одноклассниках was created
+20:59:56 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Вот поэтому мы в Москве такие злые was created
+20:59:163 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Встала баба на весы was created
+20:59:269 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Где бы взять мне бабу was created
+20:59:373 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Гимн офисного работника was created
+20:59:476 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: День Победы was created
+20:59:583 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: До свадьбы нельзя was created
+20:59:684 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Жопа растет was created
+20:59:787 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Залепи свое дуло was created
+20:59:889 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Круглосуточно красивая женщина was created
+20:59:994 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Купи говно was created
+21:00:98 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Люба-звезда Ютьюба was created
+21:00:213 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Море работы was created
+21:00:319 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Обращение к акционерам Газпрома was created
+21:00:423 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Палево was created
+21:00:537 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про начальника was created
+21:00:642 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про трусы was created
+21:00:766 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня российского чиновника was created
+21:00:864 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Печень was created
+21:00:971 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Разговор мужа с женой was created
+21:00:71 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: С Новым Годом, президент России was created
+21:00:174 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сама козел was created
+21:00:273 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сауна was created
+21:00:381 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Стану геем was created
+21:00:508 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+21:00:509 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+21:00:523 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+21:00:525 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+21:00:590 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сука-сосед was created
+21:00:690 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Экстрасенс was created
+21:00:791 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я затрахался трахаться was created
+21:00:894 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Я сегодня хочу обратиться к врачу was created
+21:00:994 DEBUG main AuthorDaoMysql:create:45 - author: СОК was created
+21:00:04 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня о мечте КВНщика was created
+21:00:97 DEBUG main AuthorDaoMysql:create:45 - author: Станция Спортивная was created
+21:00:104 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Грузчик was created
+21:00:230 DEBUG main AuthorDaoMysql:create:45 - author: Уездный город was created
+21:00:236 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сережа молодец was created
+21:00:402 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: А че ты не пьешь? was created
+21:00:615 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Как хорошо быть мужиком was created
+21:00:711 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Майонез was created
+21:00:811 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+21:00:906 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка про добро was created
+21:00:04 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Хлеборез (Песня для тех, кто служил) was created
+21:01:586  INFO main CreateConnection:<init>:55 - jdbc:mysql://localhost:3306/musicinfo?characterEncoding=utf8
+21:01:787 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS GENRE  is created
+21:01:788 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS AUTHOR  is created
+21:01:789 DEBUG main CreateConnection:createTable:84 - Table: TABLE IF NOT EXISTS MUSIC_INFO  is created
+21:01:790 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+21:01:806 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.GenreDaoMysql is fully initialised
+21:01:808 DEBUG main GenreDaoMysql:create:45 - genre: jokes/kvn was created
+21:01:821 DEBUG main CreateConnection:close:127 - DB Connection is closed.
+21:01:213 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+21:01:215 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.AuthorDaoMysql is fully initialised
+21:01:232 DEBUG main CreateConnection:<init>:71 - ConnectionCreator is initialized.
+21:01:233 DEBUG main CreateConnection:initilizePrepStatements:113 - ru.itis.musicinfo.dao_mysql.MusicInfoDaoMysql is fully initialised
+21:01:366 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня на жалость was created
+21:01:488 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про малыша was created
+21:01:606 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня про НЛО was created
+21:01:729 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Алена даст was created
+21:01:852 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Саундтрек к мультфильму Винни-Пух was created
+21:01:966 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка про школу was created
+21:01:76 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песня о мечте КВНщика was created
+21:01:187 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Грузчик was created
+21:01:300 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Сережа молодец was created
+21:01:417 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Майонез was created
+21:01:520 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Новый год was created
+21:01:633 DEBUG main MusicInfoDaoMysql:create:50 - musicinfo: Песенка про добро was created

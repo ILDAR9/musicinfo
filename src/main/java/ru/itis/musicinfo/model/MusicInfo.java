@@ -12,7 +12,15 @@ public class MusicInfo {
     private Long author_id;
     private String text;
     private Long genre_id;
+    private String url_address;
 
+    public String getUrl_address() {
+        return url_address;
+    }
+
+    public void setUrl_address(String url_address) {
+        this.url_address = url_address;
+    }
 
     public MusicInfo() {
     }
@@ -20,6 +28,12 @@ public class MusicInfo {
     public MusicInfo(String name, Long genre_id) {
         this.name = name;
         this.genre_id = genre_id;
+    }
+
+    public MusicInfo(String name, Long genre_id, long author_id) {
+        this.name = name;
+        this.genre_id = genre_id;
+        this.author_id = author_id;
     }
 
     public String getName() {

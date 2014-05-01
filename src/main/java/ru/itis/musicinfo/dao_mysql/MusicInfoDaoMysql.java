@@ -10,6 +10,7 @@ import ru.itis.musicinfo.utils.DataUtils;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Types;
 
 /**
  * Implemented by Mysql
@@ -40,11 +41,13 @@ public class MusicInfoDaoMysql extends CreateConnection implements MusicInfoDAO 
                 prepSt.setLong(3, musicInfo.getGenre_id());
                 if (musicInfo.getAuthor_id() != null) {
                     prepSt.setLong(4, musicInfo.getAuthor_id());
+                } else{
+                    prepSt.setNull(4, Types.INTEGER);
                 }
-
+                prepSt.setString(5,musicInfo.getUrl_address());
                 isCreated = prepSt.executeUpdate() > 0;
                 if (isCreated) {
-                    logger.debug("Author was created");
+                    logger.debug("musicinfo: " + musicInfo.getName() + " was created");
                     conn.commit();
                 } else {
                     conn.rollback();

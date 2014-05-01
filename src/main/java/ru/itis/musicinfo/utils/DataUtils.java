@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class DataUtils {
     public static boolean isEmpty(String item){
-        return item == null || item.isEmpty();
+        return item == null || item.trim().isEmpty();
     }
     public static boolean isEmpty(List items){
         return items==null || items.size() == 0;
